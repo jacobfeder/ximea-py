@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: ximea
+Version: 4.27.2
+Summary: XIMEA camera api
+Requires-Python: >=3.9

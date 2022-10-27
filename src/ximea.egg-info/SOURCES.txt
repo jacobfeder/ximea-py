@@ -1,0 +1,16 @@
+MANIFEST.in
+README.txt
+setup.py
+src/ximea/__init__.py
+src/ximea/xi_wintypes.py
+src/ximea/xiapi.py
+src/ximea/xidefs.py
+src/ximea.egg-info/PKG-INFO
+src/ximea.egg-info/SOURCES.txt
+src/ximea.egg-info/dependency_links.txt
+src/ximea.egg-info/not-zip-safe
+src/ximea.egg-info/top_level.txt
+src/ximea/libs/x32/xiArrOps.so
+src/ximea/libs/x64/xiArrOps.so
+src/ximea/libs/xarm32/xiArrOps.so
+src/ximea/libs/xarm64/xiArrOps.so
