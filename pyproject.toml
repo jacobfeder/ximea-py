@@ -4,6 +4,7 @@ version = "4.27.02"
 description = "XIMEA camera API"
 authors = ["Jacob Feder <jacobsfeder@gmail.com>"]
 readme = "README.md"
+packages = [{include = "src/ximea"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
