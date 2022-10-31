@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ximea-py"
-version = "4.27.02"
+version = "4.27.02.1"
 description = "XIMEA camera API"
 authors = ["Jacob Feder <jacobsfeder@gmail.com>"]
 readme = "README.md"
