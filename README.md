@@ -10,7 +10,7 @@ On Linux, add users that will use the camera to the "plugdev" group:
 
 Install with:
 
-`pip install git+https://github.com/jacobfeder/ximea-py.git`
+`pip install ximea-py`
 
 and use like so:
 
