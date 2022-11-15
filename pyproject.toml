@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "ximea-py"
-version = "4.27.02.2"
+version = "4.27.02.3"
 description = "XIMEA camera API"
 authors = ["Jacob Feder <jacobsfeder@gmail.com>"]
 readme = "README.md"
-packages = [{include = "src/ximea"}]
+packages = [{include = "ximea", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
