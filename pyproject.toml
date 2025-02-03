@@ -3,6 +3,7 @@ name = "ximea-py"
 version = "4.27.02.3"
 description = "XIMEA camera API"
 authors = ["Jacob Feder <jacobsfeder@gmail.com>"]
+repository = "https://github.com/jacobfeder/ximea-py"
 readme = "README.md"
 packages = [{include = "ximea", from = "src"}]
 
