@@ -1,0 +1,4 @@
+src/ximea/libs/32bit/xiapi32.dll filter=lfs diff=lfs merge=lfs -text
+src/ximea/libs/64bit/xiapi64.dll filter=lfs diff=lfs merge=lfs -text
+src/ximea/libs/32bit/xiArrOps32.dll filter=lfs diff=lfs merge=lfs -text
+src/ximea/libs/64bit/xiArrOps64.dll filter=lfs diff=lfs merge=lfs -text
