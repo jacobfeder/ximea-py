@@ -33,19 +33,19 @@ if platform.system() == "Linux":
 
 elif platform.system() == "Windows":
     if sys.maxsize > 2**32:
-        LIB_PATH = join('libs', '64bit')
+        LIB_PATH = join(dirname(__file__), 'libs', '64bit')
         #library for operations with image data - to increase speed with which
         #get_image_data_numpy() returns data
-        c_arr_ops = CDLL(join(dirname(__file__), LIB_PATH, 'xiArrOps64.dll'))
+        c_arr_ops = CDLL(join(LIB_PATH, 'xiArrOps64.dll'))
         #library for communication with device
-        _device = CDLL(join(dirname(__file__), LIB_PATH, 'xiapi64.dll'))
+        _device = CDLL(join(LIB_PATH, 'xiapi64.dll'))
     else:
-        LIB_PATH = join('libs', '32bit')
+        LIB_PATH = join(dirname(__file__), 'libs', '32bit')
         #library for operations with image data - to increase speed with which
         #get_image_data_numpy() returns data
-        c_arr_ops = CDLL(join(dirname(__file__), LIB_PATH, 'xiArrOps32.dll'))
+        c_arr_ops = CDLL(join(LIB_PATH, 'xiArrOps32.dll'))
         #library for communication with device
-        _device = CDLL(join(dirname(__file__), LIB_PATH, 'xiapi32.dll'))
+        _device = CDLL(join(LIB_PATH, 'xiapi32.dll'))
 
 class Xi_error(Exception):
     '''
